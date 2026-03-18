@@ -44,7 +44,6 @@ namespace Synapse.Crypto.Bybit
     //    "\"conn_id\":\"d4anidhjocoercpjvr6g-28mw2\"," +
     //    "\"req_id\":\"bb1140bb-1654-4206-b722-aa9d6f01778d\"," +
     //    "\"op\":\"subscribe\"}" +
-    //    "\0\0\0\0\0\0\0\0\0..."
 
     public class SoketSubscribeResponse
     {

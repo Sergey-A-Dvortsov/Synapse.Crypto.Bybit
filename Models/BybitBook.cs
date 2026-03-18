@@ -233,8 +233,10 @@ namespace Synapse.Crypto.Bybit
 
         public DateTime UpdateTime { get => updatets.UnixTimeMillisecondsToDateTime(); }
 
+
         public bool Update(OrderbookResponse resp)
         {
+
             updatets = resp.cts;
             Delay = DateTime.UtcNow - UpdateTime;
 
@@ -404,8 +406,6 @@ namespace Synapse.Crypto.Bybit
             return false;
         }
 
-
-
-
+       
     }
 }
